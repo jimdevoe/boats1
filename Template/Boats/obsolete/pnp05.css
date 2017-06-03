@@ -1,0 +1,211 @@
+body {
+	font-size: 12px;
+	color: #DFEFFC;
+	background-color: #4297D7;
+}
+.forecast-tombstone {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+*/
+li {
+   display: inline-table;
+}
+/*
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+*/
+
+a {
+/*	text-decoration: underline; */
+	color: #2E6E9E;
+}
+
+.heading {
+	font-size: 30px;
+	background-image: url(http://www.parkandpaddle.com/jquery-redmond/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png);
+	background-repeat-x: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: lighter;
+	font-family: Arial;
+}
+h1 {
+	font-family: "museo-slab",serif;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 72px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-family: "museo-slab",serif;
+/*	font-style: italic; */
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+.header {
+	/* background-image: url("../banner.jpg"); */
+	color: #DFEFFC;
+	width: 1000px;
+}
+.header2 {
+	/* background-image: url("../banner.jpg"); */
+	color: blue;
+}
+
+button {
+	margin-top: 4px;
+}
+
+
+#map1 	{
+	height		: 92%;  
+}
+
+
+#map2 	{
+	height		: 92%; 
+	visibility	: hidden; 
+	}
+	
+.rh-tab {
+   height: 515px; 
+   overflow: auto; 
+}
+
+.lh-tab {
+   height: 515px; 
+   overflow: auto; 
+}
+	
+#debugMessage, #links, #yelp, #place, #data, #weather, #everyTrail, #wikipedia{
+	overflow	: auto;	
+	/* height: 425px; */ 
+	/* width : 85%; */
+	margin-bottom: 5px;
+}
+#data {
+	/* font-size: 60%; */
+	/* width : 85%; */
+}
+
+#footer {
+	border: 10px;
+	color: white;
+	a: white ;
+}
+.footer {
+	color: white;
+	a: white;
+}
+
+#searchcontrol .gsc-control { 
+	width : 100%; 
+	overflow: hidden;
+} 
+
+.ui-accordion-header {
+	font-weight: bold;
+	zoom: 1.2
+}
+
+ul#icons 			{ margin: 0; 		padding: 0;}
+
+ul#icons li 			{ 
+	margin			: 2px; 	
+	position		: relative; 
+	padding		: 4px 0; 
+	cursor			: pointer; 
+	float			: left;  
+	list-style		: none;
+}
+
+ul#icons span.ui-icon 	{ 
+	float			: left; 	
+	margin			: 0 4px;
+}
+
+.icon {
+	margin :10px;
+	width : 15%;
+	
+}
+
+.pix img {
+	margin : 10px;
+	height : 80px;
+}
+/*
+#map img {
+	behavior : none
+}
+*/
+#itinerary {
+	padding: 5px;
+}
+#mapholder {
+	padding: 20px;
+}
+#search, #tabs1 {
+	overflow: auto;
+	border: none;
+}
+li  {
+	padding: 5px;
+}
+
+#dropzone {
+/*	height: 150px; */
+	width: 350px;
+	padding: 5px;
+}
+
+.displayPoint {
+	overflow: hidden;
+}
+
+.ui-widget-content {
+	border: none;
+}
+/* masonry */
+.box {
+  /*width: 280px; */
+  margin: 5px;
+  padding: 5px;
+	
+  font-size: 12px;
+  line-height: 1.2em;
+  float: left;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+
+.col1 { width: 80px; }
+.col2 { width: 180px; }
+.col3 { width: 280px; }
+.col4 { width: 380px; }
+.col5 { width: 480px; }
+
