@@ -1,5 +1,5 @@
 <?php
-		$this->Html->script('http://maps.google.com/maps/api/js?key=AIzaSyDhteT0EcbSLZrlVRhKAc58bMeIPCV-nRI',['block'=>true]); 
+		$this->Html->script('http://maps.google.com/maps/api/js?key=[enter key here]',['block'=>true]); 
 		$this->Html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js',['block'=>true]); 
 		$this->Html->script('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js',['block'=>true]); 
 		$this->Html->script('test1',['block'=>true]); 
